@@ -13,13 +13,11 @@ const AnswerQuestion = ({ questionId }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:4000/api/answer",
-        {
-          id: userData.user.id,
-          questionId: questionId,
-          answer:form.answer
-        }
-      );   
+      await axios.post(`${process.env.REACT_APP_base_url}/api/answer`, {
+        id: userData.user.id,
+        questionId: questionId,
+        answer: form.answer,
+      });   
       window.location.reload(false);
     } catch (err) {
       console.log("problem", err);
