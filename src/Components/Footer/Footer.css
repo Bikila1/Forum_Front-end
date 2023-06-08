@@ -1,0 +1,122 @@
+/* .footer-wrapper {
+  min-width: 500px;
+	background-color: #3b455a;
+	padding-left: 30px;
+}
+.Useful-link {
+	border: 1px solid #3b455a;
+}
+.Icon {
+	width: 400px;
+	padding-top: 10px;
+}
+.Icon > a {
+	margin-right: 40px;
+	color: white;
+}
+.logo {
+	padding-top: 40px;
+}
+
+.Useful-Link > a {
+	display: flex;
+	flex-direction: column;
+	color: rgba(213, 213, 213, 0.6);
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.Useful-Link > a:hover {
+	text-decoration: underline;
+	color: white;
+	transition: all 0.4s ease;
+}
+.titlee {
+	padding-top: 35px;
+	color: white;
+}
+.Contact-Info > p {
+	display: flex;
+	flex-direction: column;
+	color: rgba(213, 213, 213, 0.6);
+}
+.Contact-Info {
+	padding-bottom: 50px;
+} */
+
+.footer-top {
+  background: #3b455a;
+  color: #62626f;
+  font: 15px Lato, sans-serif;
+  padding: 60px 0px 40px;
+  margin-bottom: -90px;
+}
+img {
+  margin: 0px 10px 15px 0px;
+  padding: 10px 25px 10px 25px;
+}
+
+.brands {
+  margin: 0 5px;
+  border-radius: 360px; /*50% also works */
+  border: 2px solid #ffffff; /* add a border witn white color */
+  position: relative;
+  top: -60px;
+  right: -25px;
+  background-color: transparent; /* remove the background */
+  color: #ffffff;
+  display: inline-flex;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.brands:hover {
+  background-color: #ffffff;
+  color: rgb(104, 104, 220);
+  text-decoration: underline;
+}
+.lists {
+  display: flex;
+  text-decoration: none;
+}
+.lists:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.lists1 {
+  display: flex;
+  text-decoration: none;
+  margin: 0px 0px 12px;
+  color: #d5d5d599;
+}
+.lists1:hover {
+  color: #ffffff;
+}
+.footer-social-list {
+  color: #62626f;
+  font: 15px Lato, sans-serif;
+  margin: 25px 0px 0px -5px;
+  padding: 20px 0px 0px;
+}
+.col-lg-4 {
+  color: #62626f;
+  font: 15px Lato, sans-serif;
+  padding: 0px 15px;
+}
+h5 {
+  color: #ffffff;
+  font: 18px Lato, sans-serif;
+  margin: 0px 0px 10px;
+}
+.lists {
+  color: #d5d5d599;
+  font: 15px Lato, sans-serif;
+}
+.lists {
+  color: #d5d5d599;
+  font: 16px Lato, sans-serif;
+  margin: 0px 0px 12px;
+}
